@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #table1 {
+            width: 300px;
+            ;
+            height: 150px;
+            text-align: center;
+        }
+
+        #table2 {
+            width: 300px;
+            ;
+            height: 150px;
+            text-align: center;
+            background-color: yellow;
+        }
+
+        h3 {
+            padding-left: 100px;
+        }
+    </style>
+
+
+    <table border="1" id="table1">
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amal</td>
+                <td>Fernando</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Sahan</td>
+                <td>Bandara</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Kamal</td>
+                <td>Perera</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Nimal</td>
+                <td>Rathnayake</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table border="1" id="table1">
+        <tr>
+            <td>America</td>
+            <td>Canada</td>
+            <td>Alaska</td>
+        </tr>
+        <tr>
+            <td style="color: red;" colspan="2">Mexico</td>
+            <td rowspan="2">Jamaica</td>
+        </tr>
+        <tr>
+            <td style="color:blue;">California</td>
+            <td style="color:green;">Brazil</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <div style="background-color: rgb(111, 111, 111); width: fit-content; padding: 0px 50px 50px 50px;">
+        <div style="text-align: center; color: white; font-size: 30px; padding-bottom: 20px;"><u><b>Timetable</b></u>
+        </div>
+        <table border="1" id="table2">
+            <thead style="background-color: white;">
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Maths</td>
+                    <td>Geography</td>
+                    <td rowspan="3">Literature</td>
+                    <td>Maths</td>
+                    <td>Drama</td>
+                </tr>
+                <td>IT</td>
+                <td>English</td>
+                <td>Dancing</td>
+                </tr>
+                <td>Sinhala</td>
+                <td rowspan="2">Health</td>
+                <td rowspan="2">Music</td>
+                <td rowspan="2">Religion</td>
+                </tr>
+                <td>English</td>
+                <td>IT Lab</td>
+                </tr>
+                <tr>
+                    <td style="color:red ;background-color: blue;" colspan="5">
+                        I&nbsp;n&nbsp;t&nbsp;e&nbsp;r&nbsp;v&nbsp;a&nbsp;l</td>
+                </tr>
+                <tr>
+                    <td>Religion</td>
+                    <td>Maths</td>
+                    <td>Health</td>
+                    <td>Tamil</td>
+                    <td>IT</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">History</td>
+                    <td rowspan="3">Drama</td>
+                    <td rowspan="2">Library</td>
+                    <td>IT Lab</td>
+                    <td>Tamil</td>
+                </tr>
+                <tr>
+                    <td>Sinhala</td>
+                    <td rowspan="2">Art</td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(55, 186, 83);" colspan="5">For more details: <a
+                            href="www.schoolnet.com/" style="color: red;">www.schoolnet.com/</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
